@@ -1,0 +1,22 @@
+{
+  "name": "flowslanguage",
+  "version": "1.0.0",
+  "description": "간결하고 쉬운 한글 프로그래밍 언어",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooyeongCho/FlowsLanguage.git"
+  },
+  "author": "WooyeongCho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WooyeongCho/FlowsLanguage/issues"
+  },
+  "homepage": "https://github.com/WooyeongCho/FlowsLanguage#readme",
+  "dependencies": {
+    "npm": "^6.9.0"
+  }
+}

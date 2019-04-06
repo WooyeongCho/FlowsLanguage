@@ -46,9 +46,10 @@ epathContents.forEach(function(line, index) { // 줄 읽기
 
 // 파일 가져오기 (줄마다 split해서 반환시킴)
 function getFileContents(path) {
-  var re = /\r/gi
+  var r = /\r/gi
+  var comment = /\/\*.*\*\//gi
   var str = fs.readFileSync(path, 'utf8')
-  return str.replace(re, "").split("\n")
+  return str.replace(r, "").replace(comment, "").split("\n")
 }
 
 // list의 모든 element들을 trim시킴
@@ -115,5 +116,6 @@ function executeFunction(lineString, line) {
 }
 
 function paramCalc(param) { // 파라미터 계산 (예: "안녕" + "세계"는 "안녕세계"로 바꾸기)
+
   return param.replace(/\"/gi, '')
 }

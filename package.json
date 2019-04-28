@@ -16,7 +16,5 @@
     "url": "https://github.com/WooyeongCho/FlowsLanguage/issues"
   },
   "homepage": "https://github.com/WooyeongCho/FlowsLanguage#readme",
-  "dependencies": {
-    "npm": "^6.9.0"
-  }
+  "dependencies": {}
 }
